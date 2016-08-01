@@ -1,0 +1,35 @@
+/* Card design */
+.cards-wrapper{
+  padding: 60px 0;
+  background-color:#F4F4F4;
+  background-size:cover;
+}
+.card{
+  position: relative;
+  height: 200px;
+  width: 350px;
+  border-radius: 9px;
+  color:white;
+  margin:0 auto;
+  background-size: cover;
+}
+
+.card > h3 {
+  font-size: 70px;
+}
+
+.card-name{
+  position:absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top:10px;
+  left: 10px;
+  display: block;
+}
+
+.card-content{
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  display: block;
+}
